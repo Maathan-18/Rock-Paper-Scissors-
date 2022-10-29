@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    border:0;
+   }
+   header>h1{
+       background-color: rgb(255, 255, 255);
+       padding:20px;
+   }
+   
+   body{
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       text-align: center;
+       background-color:rgb(3, 255, 255);
+       
+   }
+   
+   #opponent-choice{
+       width:240px;
+       height:240px;
+       background-color:aquamarine;
+       margin-top: 10px;
+       margin-right: 30px;
+       border: 5px solid black;
+   }
+   #your-choice{
+       width:240px;
+       height:240px;
+       background-color: #00ffd0;
+       margin-top:15px;
+       border: 5px solid black;
+       
+   }
+   #choices{
+       width:240px;
+       height:80px;
+       background-color: rgb(38, 157, 237);
+       margin: 0 auto;
+       margin-top:30px;
+       position: relative;
+       margin-bottom: 60px;
+   }
+   #choices img{
+       width:80px;
+       height:80px;
+   }
+   .score-board{
+        background-color: aliceblue;
+       border: 6px solid black;
+       width:40px;
+       height: 40px;
+       margin: auto;
+       padding: 15px;
+       display: inline-block;
+   }
+   .result{
+       font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       font-weight: 900;
+       font-size: xx-large;
+       padding: 15px;
+   }
+   .score-message{
+       padding-bottom: 10px;
+       font-weight: bold;
+   }
+   /* #your-score{
+       display:inline-block;
+   }
+   #computer-score{
+       display:inline-block;
+   } */
